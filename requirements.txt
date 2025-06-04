@@ -1,0 +1,21 @@
+# requirements.txt
+
+# Create a virtual environment (recommended):
+# python3 -m venv venv
+# source venv/bin/activate
+
+# Numerical computing
+numpy>=1.21
+
+# FITS I/O, stats, and visualization utilities (astropy v X.Y)
+astropy>=5.0
+
+# Plotting library
+matplotlib>=3.5
+
+# To install all dependencies listed here:
+# python3 -m pip install --upgrade pip
+# python3 -m pip install -r requirements.txt
+
+# A minimum Python version recommended to run the script:
+# python_requires >=3.8
