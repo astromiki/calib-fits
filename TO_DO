@@ -1,0 +1,33 @@
+*** general
+- unification of filenames? is it really needed?
+- add support for MEF (Multi Extension FITS) files
+- add support for fits.gz/fits.fz files -> version 2.0?
+- remove duplicate options from configuration files
+- add image trimming to useful detector area
+- add support for multiple camera modes realized at the same time
+- [[[ add other files extensions: .fit, .FIT, .FITS ]]] DONE
+- add automatic filter recognition for strange or unknown filters
+
+*** mkmasterbias.py
+- add custom comments to FITS header (masterbias file)
+
+*** bias_correction.py
+- rewrite input arguments to argparse (unification)
+- [[[ add header inheritance to bias subtracted files ]]] DONE
+
+*** mkmasterdark.py
+- add EqualExposure method
+- unify variables to mkmasterbias.py
+- add HISTORY & COMMENT keywords
+- add custom label to FIST header
+
+*** calib.sh
+- [[[ add easy testing ]]] DONE
+
+*** calib.py
+- 
+- 
+- 
+
+
+************* Version of May 31, 2025 *************
